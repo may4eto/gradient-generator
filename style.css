@@ -46,7 +46,7 @@ body {
     }
   }
 
-  button:last-child {
+  button:first-child {
     @media(min-width: 768px) {
         margin-right: 16px;
     }
