@@ -9,6 +9,7 @@ body {
     padding: 24px;
     width: 100%;
     height: 100%;
+    box-sizing: border-box;
   }
   
   div.layer2 {
@@ -43,7 +44,10 @@ body {
         margin-bottom: 16px;
         width: 100%;
     }
-     @media(min-width: 768px) {
+  }
+
+  button:last-child {
+    @media(min-width: 768px) {
         margin-right: 16px;
     }
   }
